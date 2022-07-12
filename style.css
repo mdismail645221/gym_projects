@@ -139,7 +139,7 @@ nav ul li a:hover{
     /* overflow: hidden; */
     top: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.4;
     box-shadow: 10px 10px 40px red;
     padding: 0;
     /* border-radius: 5px; */
@@ -201,6 +201,7 @@ nav ul li a:hover{
 .about-area{
     background-color: #000;
     color: #fff;
+
 }
 /* .about-items{
     padding: 2em 0;
@@ -211,27 +212,24 @@ nav ul li a:hover{
     border-top: 1px solid red;
 }
 .about-items-left{
-    flex-basis: 40%;
+    flex-basis: 45%;
     
 }
 .about-items-right{
-    flex-basis: 48%;
+    flex-basis: 50%;
     border-top: 1px solid gray;
 }
 .about-img {
     display: flex;
-    max-width: 80%;
-    max-height: 90%;
-    margin-top: 2em;
-    /* margin-top: 4em; */
     overflow:initial;
+    margin-top: 2em;
 }
 .about-img img {
     margin-left: 2em;
     transform: skewY(-15deg);
     transition: .8s;
-    width: 50%;
-    height: 70vh;
+    width: 70%;
+    height: 50vh;
     box-shadow: 8px 8px 10px red;
 }
 .about-img img:hover {
@@ -241,13 +239,13 @@ nav ul li a:hover{
 .about-items-right h1 {
     font-size: 3rem;
     line-height: 4rem;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
 }
 
 .about-items-right h3 {
     font-size: 1.2rem;
     text-align: justify;
-    padding-bottom: 2em;
+    padding-bottom: .5em;
 }
 
 .about-items-right ul li a {
@@ -263,4 +261,65 @@ nav ul li a:hover{
     margin-left: 2em;
     /* padding: 0; */
 }
+a.fill-btn-box {
+    color: #fff;
+    display: inline-block;
+    background: red;
+    padding: .8em 1.5em;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 1.5em 0;
+    font-size: 1.5rem;
+    /* position:absulate; */
+    font-weight: 600;
+    transition: .8s;
+    position: absolute;
+}
+a.fill-btn-box:hover {
+    color: #fff;
+    display: inline-block;
+    background: red;
+    padding: .8em 1.5em;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 1.5em 0;
+    font-size: 1.5rem;
+    transition: 3s;
+    opacity: 1;
+    font-weight: 600;
+    border-radius: 50px;
+    opacity: 0.6;
+}
+/* ============working-chat-area================= */
+ .working-chat{
+    background-image: url(images/shape/Group_33094_1.png);
+    width: 50%;
+    height: 200px ;
+    border-radius: 20%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: -100%;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    box-shadow: 14px 15px 15px #8f90d4;
+ }
+ .working-chat a {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.3rem;
+    background: #fff;
+    padding: 1em 2em;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.working-chat a:hover {
+    background: blue;
+    color: #fff;
+}
+
 
