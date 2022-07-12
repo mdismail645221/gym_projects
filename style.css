@@ -321,5 +321,13 @@ a.fill-btn-box:hover {
     background: blue;
     color: #fff;
 }
-
-
+/* ==============Service area==================== */
+.single-service{
+    flex-basis: 30%;
+}
+.single-service p img{
+    width: 100%;
+}
+.service_footer{
+    /* padding-right:4em; */
+}
