@@ -569,3 +569,21 @@ footer.footer .text-box {
     padding: 2em;
     margin: 0;
 }
+
+
+@media (max-width:600px),(max-width:900px) {
+    ul.d-flex.footer-text-box li {
+        border-radius: 8px;
+        margin-left: 7px;
+        padding: 10px 1.5em;
+        text-align: center;
+        /* background: #fff; */
+        /* display: inline; */
+        cursor: pointer;
+    }
+    ul.d-flex.footer-text-box li a:hover {
+        color: rgb(40, 18, 238);
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}
