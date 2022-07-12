@@ -51,6 +51,9 @@ body{
 .m-b{
     margin-bottom: 3em;
 }
+.p-b{
+    padding-bottom: 2em;
+}
 /* =============manu-bar=========== */
 .header{
     background-color: #000;
@@ -76,11 +79,11 @@ nav ul{
     padding: 5% 0;
 }
 nav ul li{
-   margin-left: 2.8em;
+   margin-left: 4.8em;
 }
 nav ul li a{
    color:#fff;
-   font-size: 1.2rem;
+   font-size: 1.3rem;
    font-weight: 600;
 }
 nav ul li a:hover{
@@ -194,4 +197,70 @@ nav ul li a:hover{
     /* margin: 0 auto; */
 }
 
+/* ===============About-area================= */
+.about-area{
+    background-color: #000;
+    color: #fff;
+}
+/* .about-items{
+    padding: 2em 0;
+    border-top: 1px solid red;
+} */
+.about-items-left{
+    padding: 2em 0;
+    border-top: 1px solid red;
+}
+.about-items-left{
+    flex-basis: 40%;
+    
+}
+.about-items-right{
+    flex-basis: 48%;
+    border-top: 1px solid gray;
+}
+.about-img {
+    display: flex;
+    max-width: 80%;
+    max-height: 90%;
+    margin-top: 2em;
+    /* margin-top: 4em; */
+    overflow:initial;
+}
+.about-img img {
+    margin-left: 2em;
+    transform: skewY(-15deg);
+    transition: .8s;
+    width: 50%;
+    height: 70vh;
+    box-shadow: 8px 8px 10px red;
+}
+.about-img img:hover {
+    margin-left: 2em; 
+    transform: skewY(15deg); 
+}
+.about-items-right h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    padding-bottom: 1em;
+}
+
+.about-items-right h3 {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-bottom: 2em;
+}
+
+.about-items-right ul li a {
+    color: #fff;
+}
+
+.about-items-right ul li {
+    list-style: cjk-earthly-branch;
+    /* list-style-type: decimal; */
+}
+
+.about-items-right ul {
+    margin-left: 2em;
+    /* padding: 0; */
+}
 
