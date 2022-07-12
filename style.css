@@ -124,6 +124,7 @@ nav ul li a:hover{
 }
 .bottom-left {
     padding: 2%;
+    z-index: 1;
 }
 
 .bottom-left h1 {
@@ -132,6 +133,7 @@ nav ul li a:hover{
     padding: 6% 0;
 }
 .bottom-left::after {
+    z-index: -1;
     content: '';
     position: absolute;
     width: 100%;
@@ -327,7 +329,4 @@ a.fill-btn-box:hover {
 }
 .single-service p img{
     width: 100%;
-}
-.service_footer{
-    /* padding-right:4em; */
 }
