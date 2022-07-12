@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
     transition: 0.8ms; 
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -43,6 +44,13 @@ body{
     --p-b: 0 0 4em 0;
 }
 
+.text-box{
+    text-align: center;
+    padding: 4% 0;
+}
+.m-b{
+    margin-bottom: 3em;
+}
 /* =============manu-bar=========== */
 .header{
     background-color: #000;
@@ -54,7 +62,7 @@ section.manu-top{
 .logo-title a{
     color: #fff;
     font-style: italic;
-    font-size: 2.90rem;
+    font-size: 2rem;
     letter-spacing: .4rem;
     font-weight: 800;
     padding: 5% 0;  
@@ -136,5 +144,54 @@ nav ul li a:hover{
     /* clip-path: polygon(0% 15%, 9% 9%, 15% 0%, 85% 0%, 90% 9%, 100% 15%, 100% 85%, 91% 91%, 85% 100%, 15% 100%, 10% 89%, 0% 85%); */
 }
 
+/* =============look-area============ */
+.look-title-box.text-box h1 {
+    font-size: 3rem;
+}
+.single-box {
+    flex-basis: 30%;
+    padding: 2em 0;
+}
+.single-box img{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.single-box p{
+    text-align: justify;
+    margin-bottom: 1em;
+}
+.single-box {
+    margin-top: 3em;
+    transition: .5s;
+    padding: 1.5em;
+    border: 1.5px solid red;
+    border-radius: 7px;
+    box-shadow: 8px 8px 15px red;
+}
+.single-box:hover {
+    margin-top: 1em;
+    transition: .5s;
+}
+
+.more-links {
+    display: block;
+    justify-content: flex-end;
+    margin: 0 auto;
+    text-align: center;
+    color: blue;
+}
+
+.more-links a{
+    color: blue;
+}
+
+.more-links a:hover,.more-links a:focus{
+    border-bottom: 1px solid blue;
+    color: blueviolet;
+    /* margin: 0 auto; */
+}
 
 
