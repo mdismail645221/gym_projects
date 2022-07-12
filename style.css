@@ -380,7 +380,7 @@ a.fill-btn-box:hover {
     width: 50%;
     height: 200px ;
     border-radius: 20%;
-    color: #fff;
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -404,6 +404,9 @@ a.fill-btn-box:hover {
 .working-chat a:hover {
     background: blue;
     color: #fff;
+}
+.working-chat h1{
+    color: #000;
 }
 
 
